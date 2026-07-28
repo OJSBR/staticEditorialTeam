@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Static Editorial Team"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Restores the static Editorial Team page from earlier OJS versions: the page displays the free text configured in the journal settings instead of the dynamic list built from user roles."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Editorial Team"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "This text is displayed on the Editorial Team page of the website, instead of the automatic list of users. Describe the editorial team with full names, affiliations and, if you wish, terms of service."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Choose how the Editorial Team page is built for this journal. The static content is the free text configured in the journal settings."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Where to edit the content"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "The text shown on the page is the rich text field in the Editorial Team tab of the journal settings (labelled \"Editorial History\" in a standard OJS 3.5)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Open Settings > Journal > Editorial Team"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "The text field is still empty"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "While the field is blank, the Editorial Team page will show no static content. Fill in the field in the journal settings before using the static-only mode."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Content of the Editorial Team page"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Static content only (behaviour of earlier versions)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Static content, followed by the dynamic list of users"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamic list of users, followed by the static content"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Additional options"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Display last year's list of peer reviewers on the page"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Display the link to the Editorial History page"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Do not repeat the static content on the Editorial History page"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Rename the field to \"Editorial Team\" in the journal settings"

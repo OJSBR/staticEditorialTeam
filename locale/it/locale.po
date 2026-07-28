@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Comitato editoriale statico"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Ripristina la pagina statica del comitato editoriale delle versioni precedenti di OJS: la pagina mostra il testo libero configurato nella rivista invece dell'elenco dinamico generato dai ruoli degli utenti."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Comitato editoriale"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Questo testo viene mostrato nella pagina Comitato editoriale del sito, al posto dell'elenco automatico degli utenti. Indica la composizione del comitato con nome completo, affiliazione e, se lo desideri, il periodo di servizio."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Scegli come comporre la pagina Comitato editoriale in questa rivista. Il contenuto statico è il testo libero configurato nelle impostazioni della rivista."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Dove modificare il contenuto"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Il testo mostrato nella pagina è il campo di testo della scheda Comitato editoriale nelle impostazioni della rivista (chiamato \"Storia editoriale\" in un OJS 3.5 standard)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Apri Impostazioni > Rivista > Comitato editoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Il campo di testo è ancora vuoto"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Finché il campo resta vuoto, la pagina Comitato editoriale non mostrerà alcun contenuto statico. Compila il campo nelle impostazioni della rivista prima di usare la modalità solo statica."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Contenuto della pagina Comitato editoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Solo il contenuto statico (comportamento delle versioni precedenti)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Contenuto statico e, sotto, l'elenco dinamico degli utenti"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Elenco dinamico degli utenti e, sotto, il contenuto statico"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opzioni aggiuntive"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Mostrare nella pagina l'elenco dei revisori dell'anno precedente"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Mostrare il link alla pagina Storia editoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Non ripetere il contenuto statico nella pagina Storia editoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Rinominare il campo in \"Comitato editoriale\" nelle impostazioni della rivista"

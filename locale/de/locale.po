@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statisches Redaktionsteam"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Stellt die statische Seite des Redaktionsteams aus früheren OJS-Versionen wieder her: Die Seite zeigt den in der Zeitschrift konfigurierten Freitext anstelle der dynamisch aus den Benutzerrollen erzeugten Liste."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Redaktionsteam"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Dieser Text wird auf der Seite Redaktionsteam der Website anstelle der automatischen Benutzerliste angezeigt. Geben Sie die Zusammensetzung des Teams mit vollständigem Namen, Zugehörigkeit und, falls gewünscht, Amtszeit an."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Legen Sie fest, wie die Seite Redaktionsteam in dieser Zeitschrift aufgebaut wird. Der statische Inhalt ist der in den Zeitschrifteneinstellungen konfigurierte Freitext."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Wo der Inhalt bearbeitet wird"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Der auf der Seite angezeigte Text ist das Textfeld im Reiter Redaktionsteam der Zeitschrifteneinstellungen (in einem Standard-OJS 3.5 „Redaktionsgeschichte“ genannt)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Einstellungen > Zeitschrift > Redaktionsteam öffnen"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Das Textfeld ist noch leer"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Solange das Feld leer ist, zeigt die Seite Redaktionsteam keinen statischen Inhalt. Füllen Sie das Feld in den Zeitschrifteneinstellungen aus, bevor Sie den Modus „nur statisch“ verwenden."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Inhalt der Seite Redaktionsteam"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Nur der statische Inhalt (Verhalten früherer Versionen)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statischer Inhalt, darunter die dynamische Benutzerliste"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamische Benutzerliste, darunter der statische Inhalt"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Zusätzliche Optionen"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Die Liste der Gutachter/innen des Vorjahres auf der Seite anzeigen"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Den Link zur Seite Redaktionsgeschichte anzeigen"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Den statischen Inhalt nicht auf der Seite Redaktionsgeschichte wiederholen"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Das Feld in den Zeitschrifteneinstellungen in „Redaktionsteam“ umbenennen"

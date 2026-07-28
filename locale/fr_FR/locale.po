@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Équipe éditoriale statique"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Rétablit la page statique de l'équipe éditoriale des versions précédentes d'OJS : la page affiche le texte libre configuré dans la revue au lieu de la liste dynamique générée à partir des rôles des utilisateurs·rices."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Équipe éditoriale"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Ce texte est affiché sur la page Équipe éditoriale du site, à la place de la liste automatique des utilisateurs·rices. Indiquez la composition de l'équipe avec le nom complet, l'affiliation et, si vous le souhaitez, la période d'exercice."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Choisissez comment la page Équipe éditoriale est composée pour cette revue. Le contenu statique est le texte libre configuré dans les paramètres de la revue."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Où modifier le contenu"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Le texte affiché sur la page est le champ de texte de l'onglet Équipe éditoriale dans les paramètres de la revue (nommé « Historique éditorial » dans un OJS 3.5 standard)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Ouvrir Paramètres > Revue > Équipe éditoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Le champ de texte est encore vide"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Tant que le champ est vide, la page Équipe éditoriale n'affichera aucun contenu statique. Remplissez le champ dans les paramètres de la revue avant d'utiliser le mode statique uniquement."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Contenu de la page Équipe éditoriale"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Uniquement le contenu statique (comportement des versions précédentes)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Contenu statique, suivi de la liste dynamique des utilisateurs·rices"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Liste dynamique des utilisateurs·rices, suivie du contenu statique"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Options supplémentaires"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Afficher sur la page la liste des évaluateurs·rices de l'année précédente"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Afficher le lien vers la page Historique éditorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Ne pas répéter le contenu statique sur la page Historique éditorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Renommer le champ en « Équipe éditoriale » dans les paramètres de la revue"

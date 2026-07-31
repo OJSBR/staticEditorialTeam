@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Equipa Editorial Estática"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Restaura a página estática de Equipa Editorial das versões anteriores do OJS: a página passa a apresentar o texto livre configurado na revista, em vez da lista dinâmica gerada a partir dos papéis de utilizador."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Equipa Editorial"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Este texto é apresentado na página Equipa Editorial do site, em vez da lista automática de utilizadores. Indique a composição da equipa com nome completo, afiliação e, se pretender, o período de atividade."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Escolha como a página Equipa Editorial deve ser gerada nesta revista. O conteúdo estático é o texto livre configurado nas configurações da revista."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Onde editar o conteúdo"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "O texto apresentado na página é o campo de texto do separador Equipa Editorial, nas configurações da revista (designado «Histórico Editorial» no OJS 3.5 padrão)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Abrir Configurações > Revista > Equipa Editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "O campo de texto ainda está vazio"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Enquanto o campo estiver em branco, a página Equipa Editorial ficará sem conteúdo estático. Preencha o campo nas configurações da revista antes de utilizar o modo apenas estático."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Conteúdo da página Equipa Editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Apenas o conteúdo estático (comportamento das versões anteriores)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Conteúdo estático e, por baixo, a lista dinâmica de utilizadores"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Lista dinâmica de utilizadores e, por baixo, o conteúdo estático"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opções adicionais"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Mostrar a lista de revisores do ano anterior na página"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Mostrar a ligação para a página Histórico Editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Não repetir o conteúdo estático na página Histórico Editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Renomear o campo para «Equipa Editorial» nas configurações da revista"

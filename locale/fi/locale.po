@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fi\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Staattinen toimituskunta"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Palauttaa aiempien OJS-versioiden staattisen toimituskunnan sivun: sivu näyttää lehden asetuksissa määritetyn vapaan tekstin käyttäjärooleista koostetun dynaamisen luettelon sijaan."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Toimituskunta"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Tämä teksti näkyy sivuston toimituskunnan sivulla automaattisen käyttäjäluettelon sijaan. Kuvaa toimituskunta koko nimillä, taustayhteisöillä ja halutessasi toimikausilla."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Valitse, miten toimituskunnan sivu rakennetaan tälle lehdelle. Staattinen sisältö on lehden asetuksissa määritetty vapaa teksti."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Missä sisältöä muokataan"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Sivulla näkyvä teksti on lehden asetusten Toimituskunta-välilehden muotoiltu tekstikenttä (nimeltään ”Toimituksen historia” tavallisessa OJS 3.5:ssä)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Avaa Asetukset > Lehti > Toimituskunta"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Tekstikenttä on yhä tyhjä"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Niin kauan kuin kenttä on tyhjä, toimituskunnan sivu ei näytä staattista sisältöä. Täytä kenttä lehden asetuksissa ennen kuin otat käyttöön pelkän staattisen sisällön tilan."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Toimituskunnan sivun sisältö"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Vain staattinen sisältö (aiempien versioiden toiminta)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Staattinen sisältö ja sen jälkeen dynaaminen käyttäjäluettelo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynaaminen käyttäjäluettelo ja sen jälkeen staattinen sisältö"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Lisäasetukset"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Näytä sivulla viime vuoden arvioijaluettelo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Näytä linkki Toimituksen historia -sivulle"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Älä toista staattista sisältöä Toimituksen historia -sivulla"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Nimeä kenttä uudelleen muotoon ”Toimituskunta” lehden asetuksissa"

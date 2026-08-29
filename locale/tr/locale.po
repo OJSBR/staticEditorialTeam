@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: tr\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statik Yayın Kurulu"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Önceki OJS sürümlerindeki statik Yayın Kurulu sayfasını geri getirir: sayfa, kullanıcı rollerinden oluşturulan dinamik liste yerine dergi ayarlarındaki serbest metni gösterir."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Yayın Kurulu"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Bu metin, sitedeki Yayın Kurulu sayfasında kullanıcıların otomatik listesi yerine görüntülenir. Yayın kurulunu tam adlar, kurumlar ve isterseniz görev süreleriyle tanımlayın."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Bu dergi için Yayın Kurulu sayfasının nasıl oluşturulacağını seçin. Statik içerik, dergi ayarlarında girilen serbest metindir."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "İçeriğin düzenlendiği yer"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Sayfada görünen metin, dergi ayarlarındaki Yayın Kurulu sekmesinde bulunan zengin metin alanıdır (standart bir OJS 3.5'te \"Yayın Geçmişi\" olarak adlandırılır)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Ayarlar > Dergi > Yayın Kurulu bölümünü açın"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Metin alanı hâlâ boş"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Alan boş kaldığı sürece Yayın Kurulu sayfası hiçbir statik içerik göstermez. Yalnızca statik kipini kullanmadan önce alanı dergi ayarlarında doldurun."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Yayın Kurulu sayfasının içeriği"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Yalnızca statik içerik (önceki sürümlerin davranışı)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statik içerik, ardından kullanıcıların dinamik listesi"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Kullanıcıların dinamik listesi, ardından statik içerik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Ek seçenekler"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Geçen yılın hakem listesini sayfada göster"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Yayın Geçmişi sayfasının bağlantısını göster"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Statik içeriği Yayın Geçmişi sayfasında yineleme"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Dergi ayarlarında alanın adını \"Yayın Kurulu\" olarak değiştirin"

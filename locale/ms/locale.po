@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ms\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Sidang Editorial Statik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Memulihkan halaman Sidang Editorial statik daripada versi OJS terdahulu: halaman memaparkan teks bebas dalam tetapan jurnal dan bukan senarai dinamik yang dibina daripada peranan pengguna."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Sidang Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Teks ini dipaparkan pada halaman Sidang Editorial laman web, menggantikan senarai pengguna automatik. Perihalkan sidang editorial dengan nama penuh, afiliasi dan, jika mahu, tempoh perkhidmatan."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Pilih cara halaman Sidang Editorial dibina untuk jurnal ini. Kandungan statik ialah teks bebas yang ditetapkan dalam tetapan jurnal."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Tempat menyunting kandungan"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Teks yang dipaparkan pada halaman ialah medan teks kaya dalam tab Sidang Editorial pada tetapan jurnal (dilabel \"Sejarah Editorial\" dalam OJS 3.5 standard)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Buka Tetapan > Jurnal > Sidang Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Medan teks masih kosong"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Selagi medan ini kosong, halaman Sidang Editorial tidak akan memaparkan kandungan statik. Isikan medan itu dalam tetapan jurnal sebelum menggunakan mod statik sahaja."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Kandungan halaman Sidang Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Kandungan statik sahaja (kelakuan versi terdahulu)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Kandungan statik, diikuti senarai pengguna dinamik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Senarai pengguna dinamik, diikuti kandungan statik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Pilihan tambahan"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Papar senarai penilai tahun lalu pada halaman ini"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Papar pautan ke halaman Sejarah Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Jangan ulang kandungan statik pada halaman Sejarah Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Namakan semula medan kepada \"Sidang Editorial\" dalam tetapan jurnal"

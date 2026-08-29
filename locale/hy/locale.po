@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hy\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Ստատիկ խմբագրական կազմ"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Վերականգնում է OJS-ի նախորդ տարբերակների ստատիկ խմբագրական կազմի էջը. էջը ցուցադրում է ամսագրի կարգավորումների ազատ տեքստը՝ օգտվողների դերերից կառուցվող դինամիկ ցանկի փոխարեն։"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Խմբագրական կազմ"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Այս տեքստը ցուցադրվում է կայքի խմբագրական կազմի էջում՝ օգտվողների ավտոմատ ցանկի փոխարեն։ Նկարագրեք խմբագրական կազմը լրիվ անուններով, կազմակերպություններով և, ցանկության դեպքում, պաշտոնավարման ժամկետներով։"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Ընտրեք, թե ինչպես է կառուցվում խմբագրական կազմի էջն այս ամսագրի համար։ Ստատիկ բովանդակությունն ամսագրի կարգավորումներում սահմանված ազատ տեքստն է։"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Որտեղ է խմբագրվում բովանդակությունը"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Էջում ցուցադրվող տեքստը ամսագրի կարգավորումների «Խմբագրական կազմ» ներդիրի հարուստ տեքստի դաշտն է (ստանդարտ OJS 3.5-ում կոչվում է «Խմբագրական պատմություն»)։"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Բացեք Կարգավորումներ > Ամսագիր > Խմբագրական կազմ"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Տեքստի դաշտը դեռ դատարկ է"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Քանի դեռ դաշտը դատարկ է, խմբագրական կազմի էջը ստատիկ բովանդակություն չի ցուցադրի։ Լրացրեք դաշտը ամսագրի կարգավորումներում՝ նախքան «միայն ստատիկ» ռեժիմն օգտագործելը։"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Խմբագրական կազմի էջի բովանդակությունը"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Միայն ստատիկ բովանդակություն (նախորդ տարբերակների վարքը)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Ստատիկ բովանդակություն, ապա օգտվողների դինամիկ ցանկ"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Օգտվողների դինամիկ ցանկ, ապա ստատիկ բովանդակություն"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Լրացուցիչ ընտրանքներ"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Էջում ցուցադրել անցած տարվա գրախոսների ցանկը"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Ցուցադրել «Խմբագրական պատմություն» էջի հղումը"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Չկրկնել ստատիկ բովանդակությունը «Խմբագրական պատմություն» էջում"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Ամսագրի կարգավորումներում վերանվանեք դաշտը «Խմբագրական կազմ»"

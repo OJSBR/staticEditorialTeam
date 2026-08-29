@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: mk\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Статичен уредувачки тим"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Ја враќа статичната страница на уредувачкиот тим од претходните верзии на OJS: страницата го прикажува слободниот текст од поставките на списанието наместо динамичната листа изградена од корисничките улоги."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Уредувачки тим"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Овој текст се прикажува на страницата на уредувачкиот тим на сајтот наместо автоматската листа на корисници. Опишете го уредувачкиот тим со целосни имиња, институции и, по желба, мандати."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Изберете како се гради страницата на уредувачкиот тим за ова списание. Статичната содржина е слободниот текст поставен во поставките на списанието."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Каде се уредува содржината"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Текстот прикажан на страницата е полето со форматиран текст во картичката Уредувачки тим во поставките на списанието (во стандарден OJS 3.5 се вика „Уредничка историја“)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Отворете Поставки > Списание > Уредувачки тим"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Текстуалното поле сè уште е празно"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Додека полето е празно, страницата на уредувачкиот тим нема да прикажува статична содржина. Пополнете го полето во поставките на списанието пред да го користите режимот само со статична содржина."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Содржина на страницата на уредувачкиот тим"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Само статична содржина (однесување од претходните верзии)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Статична содржина, проследена со динамичната листа на корисници"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Динамична листа на корисници, проследена со статичната содржина"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Дополнителни опции"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Прикажи ја на страницата листата на рецензенти од минатата година"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Прикажи ја врската до страницата „Уредничка историја“"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Не повторувај ја статичната содржина на страницата „Уредничка историја“"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Преименувајте го полето во „Уредувачки тим“ во поставките на списанието"

@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ro\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Echipă editorială statică"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Restaurează pagina statică a echipei editoriale din versiunile anterioare de OJS: pagina afișează textul liber din setările revistei în locul listei dinamice construite din rolurile utilizatorilor."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Echipa editorială"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Acest text este afișat pe pagina echipei editoriale a site-ului, în locul listei automate de utilizatori. Descrieți echipa editorială cu nume complete, afilieri și, dacă doriți, perioade de mandat."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Alegeți cum se construiește pagina echipei editoriale pentru această revistă. Conținutul static este textul liber configurat în setările revistei."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Unde se editează conținutul"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Textul afișat pe pagină este câmpul de text îmbogățit din fila Echipa editorială a setărilor revistei (denumit „Istoric editorial” într-un OJS 3.5 standard)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Deschideți Setări > Revistă > Echipa editorială"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Câmpul de text este încă gol"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Cât timp câmpul este gol, pagina echipei editoriale nu va afișa conținut static. Completați câmpul în setările revistei înainte de a folosi modul doar static."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Conținutul paginii echipei editoriale"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Doar conținut static (comportamentul versiunilor anterioare)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Conținut static, urmat de lista dinamică de utilizatori"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Listă dinamică de utilizatori, urmată de conținutul static"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opțiuni suplimentare"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Afișează pe pagină lista recenzenților din anul trecut"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Afișează linkul către pagina Istoric editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Nu repeta conținutul static pe pagina Istoric editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Redenumiți câmpul în „Echipa editorială” în setările revistei"

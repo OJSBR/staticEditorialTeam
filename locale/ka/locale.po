@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ka\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "სტატიკური სარედაქციო გუნდი"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "აღადგენს OJS-ის ადრინდელი ვერსიების სტატიკურ სარედაქციო გუნდის გვერდს: გვერდი აჩვენებს ჟურნალის პარამეტრებში მითითებულ თავისუფალ ტექსტს და არა მომხმარებელთა როლებით აგებულ დინამიურ სიას."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "სარედაქციო გუნდი"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "ეს ტექსტი ჩანს საიტის სარედაქციო გუნდის გვერდზე მომხმარებელთა ავტომატური სიის ნაცვლად. აღწერეთ სარედაქციო გუნდი სრული სახელებით, აფილიაციებითა და, სურვილისამებრ, უფლებამოსილების ვადებით."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "აირჩიეთ, როგორ იგება სარედაქციო გუნდის გვერდი ამ ჟურნალისთვის. სტატიკური შიგთავსი ჟურნალის პარამეტრებში მითითებული თავისუფალი ტექსტია."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "სად ხდება შიგთავსის რედაქტირება"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "გვერდზე ნაჩვენები ტექსტი ჟურნალის პარამეტრების ჩანართ „სარედაქციო გუნდი“-ს გამდიდრებული ტექსტის ველია (სტანდარტულ OJS 3.5-ში მას „სარედაქციო ისტორია“ ჰქვია)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "გახსენით პარამეტრები > ჟურნალი > სარედაქციო გუნდი"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "ტექსტის ველი ჯერ ცარიელია"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "სანამ ველი ცარიელია, სარედაქციო გუნდის გვერდი სტატიკურ შიგთავსს არ აჩვენებს. შეავსეთ ველი ჟურნალის პარამეტრებში, სანამ „მხოლოდ სტატიკური“ რეჟიმს გამოიყენებთ."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "სარედაქციო გუნდის გვერდის შიგთავსი"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "მხოლოდ სტატიკური შიგთავსი (ადრინდელი ვერსიების ქცევა)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "სტატიკური შიგთავსი, შემდეგ მომხმარებელთა დინამიური სია"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "მომხმარებელთა დინამიური სია, შემდეგ სტატიკური შიგთავსი"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "დამატებითი პარამეტრები"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "გვერდზე გასული წლის რეცენზენტთა სიის ჩვენება"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "სარედაქციო ისტორიის გვერდის ბმულის ჩვენება"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "არ გამეორდეს სტატიკური შიგთავსი სარედაქციო ისტორიის გვერდზე"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "ჟურნალის პარამეტრებში ველს დაარქვით „სარედაქციო გუნდი“"

@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: cs\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statická redakční rada"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Obnovuje statickou stránku redakční rady z dřívějších verzí OJS: stránka zobrazuje volný text z nastavení časopisu místo dynamického seznamu sestaveného z uživatelských rolí."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Redakční rada"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Tento text se zobrazuje na stránce redakční rady webu místo automatického seznamu uživatelů. Popište redakční radu celými jmény, pracovišti a případně funkčními obdobími."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Zvolte, jak se pro tento časopis sestavuje stránka redakční rady. Statický obsah je volný text nastavený v konfiguraci časopisu."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Kde se obsah upravuje"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Text zobrazený na stránce je pole formátovaného textu na kartě Redakční rada v nastavení časopisu (ve standardním OJS 3.5 označené jako „Historie redakce“)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Otevřete Nastavení > Časopis > Redakční rada"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Textové pole je stále prázdné"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Dokud je pole prázdné, stránka redakční rady nezobrazí žádný statický obsah. Než použijete režim pouze se statickým obsahem, vyplňte pole v nastavení časopisu."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Obsah stránky redakční rady"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Pouze statický obsah (chování dřívějších verzí)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statický obsah, po něm dynamický seznam uživatelů"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamický seznam uživatelů, po něm statický obsah"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Další možnosti"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Zobrazit na stránce seznam recenzentů za loňský rok"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Zobrazit odkaz na stránku Historie redakce"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Neopakovat statický obsah na stránce Historie redakce"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Přejmenujte pole na „Redakční rada“ v nastavení časopisu"

@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: id\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Tim Editorial Statis"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Mengembalikan halaman Tim Editorial statis dari versi OJS sebelumnya: halaman menampilkan teks bebas dari pengaturan jurnal alih-alih daftar dinamis yang dibangun dari peran pengguna."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Tim Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Teks ini ditampilkan di halaman Tim Editorial situs, menggantikan daftar pengguna otomatis. Uraikan tim editorial dengan nama lengkap, afiliasi, dan bila perlu masa jabatan."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Pilih cara halaman Tim Editorial dibangun untuk jurnal ini. Konten statis adalah teks bebas yang diatur di pengaturan jurnal."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Tempat menyunting konten"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Teks yang tampil di halaman adalah bidang teks kaya pada tab Tim Editorial di pengaturan jurnal (diberi label \"Riwayat Editorial\" pada OJS 3.5 standar)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Buka Pengaturan > Jurnal > Tim Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Bidang teks masih kosong"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Selama bidang ini kosong, halaman Tim Editorial tidak akan menampilkan konten statis. Isilah bidang tersebut di pengaturan jurnal sebelum memakai mode hanya statis."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Konten halaman Tim Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Hanya konten statis (perilaku versi sebelumnya)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Konten statis, diikuti daftar pengguna dinamis"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Daftar pengguna dinamis, diikuti konten statis"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opsi tambahan"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Tampilkan daftar penelaah tahun lalu di halaman ini"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Tampilkan tautan ke halaman Riwayat Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Jangan ulangi konten statis di halaman Riwayat Editorial"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Ganti nama bidang menjadi \"Tim Editorial\" pada pengaturan jurnal"

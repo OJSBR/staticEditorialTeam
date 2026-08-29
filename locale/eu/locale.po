@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: eu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Erredakzio talde estatikoa"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "OJSren aurreko bertsioetako erredakzio taldearen orri estatikoa leheneratzen du: orriak aldizkariaren ezarpenetako testu librea erakusten du, erabiltzaileen rolen arabera sortutako zerrenda dinamikoaren ordez."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Erredakzio taldea"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Testu hau webguneko erredakzio taldearen orrian agertzen da, erabiltzaileen zerrenda automatikoaren ordez. Deskribatu erredakzio taldea izen osoekin, erakundeekin eta, nahi baduzu, agintaldiekin."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Aukeratu nola eraikitzen den erredakzio taldearen orria aldizkari honetarako. Eduki estatikoa aldizkariaren ezarpenetan konfiguratutako testu librea da."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Non editatzen den edukia"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Orrian agertzen den testua aldizkariaren ezarpenetako Erredakzio taldea fitxako testu aberastuaren eremua da (OJS 3.5 estandarrean «Erredakzio historia» izenekoa)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Ireki Ezarpenak > Aldizkaria > Erredakzio taldea"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Testu-eremua hutsik dago oraindik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Eremua hutsik dagoen bitartean, erredakzio taldearen orriak ez du eduki estatikorik erakutsiko. Bete eremua aldizkariaren ezarpenetan eduki estatikoa soilik moduaren aurretik."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Erredakzio taldearen orriaren edukia"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Eduki estatikoa soilik (aurreko bertsioen portaera)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Eduki estatikoa, eta ondoren erabiltzaileen zerrenda dinamikoa"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Erabiltzaileen zerrenda dinamikoa, eta ondoren eduki estatikoa"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Aukera gehigarriak"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Erakutsi orrian iaz ebaluatzaileen zerrenda"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Erakutsi erredakzio historiaren orrirako esteka"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Ez errepikatu eduki estatikoa erredakzio historiaren orrian"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Aldatu eremuaren izena «Erredakzio taldea» izatera aldizkariaren ezarpenetan"

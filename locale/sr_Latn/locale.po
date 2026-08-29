@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sr_Latn\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statičko uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Vraća statičku stranicu uredništva iz ranijih verzija OJS-a: stranica prikazuje slobodan tekst iz podešavanja časopisa umesto dinamičke liste izgrađene iz korisničkih uloga."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Ovaj tekst se prikazuje na stranici uredništva na sajtu umesto automatske liste korisnika. Opišite uredništvo punim imenima, afilijacijama i, ako želite, mandatima."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Izaberite kako se gradi stranica uredništva za ovaj časopis. Statički sadržaj je slobodan tekst podešen u podešavanjima časopisa."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Gde se sadržaj uređuje"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Tekst prikazan na stranici je polje obogaćenog teksta u kartici Uredništvo u podešavanjima časopisa (u standardnom OJS 3.5 nazvano „Urednička istorija“)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Otvorite Podešavanja > Časopis > Uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Tekstualno polje je i dalje prazno"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Dok je polje prazno, stranica uredništva neće prikazivati statički sadržaj. Popunite polje u podešavanjima časopisa pre nego što upotrebite režim samo sa statičkim sadržajem."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Sadržaj stranice uredništva"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Samo statički sadržaj (ponašanje ranijih verzija)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statički sadržaj, zatim dinamička lista korisnika"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dinamička lista korisnika, zatim statički sadržaj"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Dodatne opcije"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Prikaži na stranici listu recenzenata iz prošle godine"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Prikaži vezu ka stranici Urednička istorija"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Ne ponavljaj statički sadržaj na stranici Urednička istorija"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Preimenujte polje u „Uredništvo“ u podešavanjima časopisa"

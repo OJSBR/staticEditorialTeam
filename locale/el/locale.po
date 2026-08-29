@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: el\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Στατική συντακτική ομάδα"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Επαναφέρει τη στατική σελίδα της συντακτικής ομάδας από παλαιότερες εκδόσεις του OJS: η σελίδα εμφανίζει το ελεύθερο κείμενο των ρυθμίσεων του περιοδικού αντί για τη δυναμική λίστα που δημιουργείται από τους ρόλους χρηστών."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Συντακτική ομάδα"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Αυτό το κείμενο εμφανίζεται στη σελίδα της συντακτικής ομάδας του ιστότοπου, αντί για την αυτόματη λίστα χρηστών. Περιγράψτε τη συντακτική ομάδα με πλήρη ονόματα, φορείς και, αν θέλετε, θητείες."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Επιλέξτε πώς δομείται η σελίδα της συντακτικής ομάδας για αυτό το περιοδικό. Το στατικό περιεχόμενο είναι το ελεύθερο κείμενο που έχει οριστεί στις ρυθμίσεις του περιοδικού."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Πού γίνεται η επεξεργασία του περιεχομένου"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Το κείμενο που εμφανίζεται στη σελίδα είναι το πεδίο εμπλουτισμένου κειμένου στην καρτέλα Συντακτική ομάδα των ρυθμίσεων του περιοδικού (με την ονομασία «Ιστορικό σύνταξης» σε τυπικό OJS 3.5)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Ανοίξτε Ρυθμίσεις > Περιοδικό > Συντακτική ομάδα"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Το πεδίο κειμένου είναι ακόμη κενό"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Όσο το πεδίο είναι κενό, η σελίδα της συντακτικής ομάδας δεν θα εμφανίζει στατικό περιεχόμενο. Συμπληρώστε το πεδίο στις ρυθμίσεις του περιοδικού πριν χρησιμοποιήσετε τη λειτουργία μόνο στατικού περιεχομένου."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Περιεχόμενο της σελίδας της συντακτικής ομάδας"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Μόνο στατικό περιεχόμενο (συμπεριφορά παλαιότερων εκδόσεων)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Στατικό περιεχόμενο, ακολουθούμενο από τη δυναμική λίστα χρηστών"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Δυναμική λίστα χρηστών, ακολουθούμενη από το στατικό περιεχόμενο"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Πρόσθετες επιλογές"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Εμφάνιση στη σελίδα της περσινής λίστας αξιολογητών"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Εμφάνιση του συνδέσμου προς τη σελίδα Ιστορικό σύνταξης"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Να μην επαναλαμβάνεται το στατικό περιεχόμενο στη σελίδα Ιστορικό σύνταξης"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Μετονομάστε το πεδίο σε «Συντακτική ομάδα» στις ρυθμίσεις του περιοδικού"

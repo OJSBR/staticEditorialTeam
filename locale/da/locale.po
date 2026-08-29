@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: da\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statisk redaktion"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Genskaber den statiske side med redaktionen fra tidligere OJS-versioner: siden viser den frie tekst fra tidsskriftets indstillinger i stedet for den dynamiske liste, der bygges ud fra brugerroller."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Redaktion"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Denne tekst vises på webstedets side med redaktionen i stedet for den automatiske brugerliste. Beskriv redaktionen med fulde navne, tilhørsforhold og eventuelt funktionsperioder."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Vælg, hvordan siden med redaktionen opbygges for dette tidsskrift. Det statiske indhold er den frie tekst, der er angivet i tidsskriftets indstillinger."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Hvor indholdet redigeres"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Teksten på siden er feltet med formateret tekst under fanen Redaktion i tidsskriftets indstillinger (kaldet \"Redaktionel historik\" i et standard-OJS 3.5)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Åbn Indstillinger > Tidsskrift > Redaktion"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Tekstfeltet er stadig tomt"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Så længe feltet er tomt, viser siden med redaktionen intet statisk indhold. Udfyld feltet i tidsskriftets indstillinger, før du bruger tilstanden med kun statisk indhold."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Indhold på siden med redaktionen"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Kun statisk indhold (adfærd fra tidligere versioner)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statisk indhold efterfulgt af den dynamiske brugerliste"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamisk brugerliste efterfulgt af det statiske indhold"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Flere indstillinger"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Vis sidste års liste over bedømmere på siden"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Vis linket til siden Redaktionel historik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Gentag ikke det statiske indhold på siden Redaktionel historik"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Omdøb feltet til \"Redaktion\" i tidsskriftets indstillinger"

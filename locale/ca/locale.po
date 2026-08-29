@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ca\n"
+
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Equip editorial estàtic"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Restaura la pàgina estàtica de l'equip editorial de les versions anteriors de l'OJS: la pàgina mostra el text lliure configurat a la revista en lloc de la llista dinàmica construïda a partir dels rols dels usuaris."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Equip editorial"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Aquest text es mostra a la pàgina de l'equip editorial del lloc web, en lloc de la llista automàtica d'usuaris. Descriviu l'equip editorial amb noms complets, afiliacions i, si voleu, períodes de mandat."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Trieu com es construeix la pàgina de l'equip editorial per a aquesta revista. El contingut estàtic és el text lliure configurat a la configuració de la revista."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "On s'edita el contingut"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "El text que es mostra a la pàgina és el camp de text enriquit de la pestanya Equip editorial de la configuració de la revista (anomenat «Història editorial» en un OJS 3.5 estàndard)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Obriu Configuració > Revista > Equip editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "El camp de text encara és buit"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Mentre el camp estigui buit, la pàgina de l'equip editorial no mostrarà cap contingut estàtic. Ompliu el camp a la configuració de la revista abans de fer servir el mode només estàtic."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Contingut de la pàgina de l'equip editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Només contingut estàtic (comportament de les versions anteriors)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Contingut estàtic, seguit de la llista dinàmica d'usuaris"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Llista dinàmica d'usuaris, seguida del contingut estàtic"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opcions addicionals"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Mostra a la pàgina la llista de revisors de l'any passat"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Mostra l'enllaç a la pàgina d'història editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "No repeteixis el contingut estàtic a la pàgina d'història editorial"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Reanomeneu el camp a «Equip editorial» a la configuració de la revista"

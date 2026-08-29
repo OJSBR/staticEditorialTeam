@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: nl\n"
+
+
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statisch redactieteam"
+
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Herstelt de statische pagina van het redactieteam uit eerdere OJS-versies: de pagina toont de vrije tekst uit de instellingen van het tijdschrift in plaats van de dynamische lijst op basis van gebruikersrollen."
+
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Redactieteam"
+
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Deze tekst verschijnt op de pagina van het redactieteam van de website, in plaats van de automatische gebruikerslijst. Beschrijf het redactieteam met volledige namen, affiliaties en eventueel zittingstermijnen."
+
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Kies hoe de pagina van het redactieteam voor dit tijdschrift wordt opgebouwd. De statische inhoud is de vrije tekst uit de instellingen van het tijdschrift."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Waar de inhoud wordt bewerkt"
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "De tekst op de pagina is het rijketekstveld op het tabblad Redactieteam van de instellingen van het tijdschrift (in een standaard OJS 3.5 “Redactionele geschiedenis” genoemd)."
+
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Ga naar Instellingen > Tijdschrift > Redactieteam"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Het tekstveld is nog leeg"
+
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Zolang het veld leeg is, toont de pagina van het redactieteam geen statische inhoud. Vul het veld in de instellingen van het tijdschrift in voordat u de modus met alleen statische inhoud gebruikt."
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Inhoud van de pagina van het redactieteam"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Alleen statische inhoud (gedrag van eerdere versies)"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statische inhoud, gevolgd door de dynamische gebruikerslijst"
+
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamische gebruikerslijst, gevolgd door de statische inhoud"
+
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Extra opties"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Toon de beoordelaarslijst van vorig jaar op de pagina"
+
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Toon de link naar de pagina Redactionele geschiedenis"
+
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Herhaal de statische inhoud niet op de pagina Redactionele geschiedenis"
+
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Hernoem het veld naar “Redactieteam” in de instellingen van het tijdschrift"

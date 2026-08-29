@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: vi\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Ban biên tập tĩnh"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Khôi phục trang Ban biên tập tĩnh của các phiên bản OJS trước: trang hiển thị văn bản tự do trong thiết lập tạp chí thay cho danh sách động dựng từ vai trò người dùng."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Ban biên tập"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Văn bản này hiển thị trên trang Ban biên tập của website, thay cho danh sách người dùng tự động. Hãy mô tả ban biên tập với họ tên đầy đủ, đơn vị công tác và, nếu muốn, nhiệm kỳ."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Chọn cách xây dựng trang Ban biên tập cho tạp chí này. Nội dung tĩnh là phần văn bản tự do được cấu hình trong thiết lập tạp chí."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Nơi chỉnh sửa nội dung"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Văn bản hiển thị trên trang chính là ô văn bản định dạng ở thẻ Ban biên tập trong thiết lập tạp chí (trong OJS 3.5 chuẩn được đặt tên là \"Lịch sử biên tập\")."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Mở Thiết lập > Tạp chí > Ban biên tập"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Trường văn bản vẫn còn trống"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Khi trường còn trống, trang Ban biên tập sẽ không hiển thị nội dung tĩnh nào. Hãy điền trường đó trong thiết lập tạp chí trước khi dùng chế độ chỉ nội dung tĩnh."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Nội dung trang Ban biên tập"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Chỉ nội dung tĩnh (hành vi của các phiên bản trước)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Nội dung tĩnh, tiếp theo là danh sách người dùng động"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Danh sách người dùng động, tiếp theo là nội dung tĩnh"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Tùy chọn bổ sung"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Hiển thị danh sách người phản biện năm trước trên trang"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Hiển thị liên kết tới trang Lịch sử biên tập"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Không lặp lại nội dung tĩnh trên trang Lịch sử biên tập"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Đổi tên trường thành \"Ban biên tập\" trong thiết lập tạp chí"

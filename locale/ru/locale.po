@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ru\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Статическая редакционная коллегия"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Возвращает статическую страницу редакционной коллегии из прежних версий OJS: страница показывает свободный текст из настроек журнала вместо динамического списка, построенного по ролям пользователей."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Редакционная коллегия"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Этот текст отображается на странице редакционной коллегии сайта вместо автоматического списка пользователей. Опишите редакционную коллегию с полными именами, аффилиациями и, при желании, сроками полномочий."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Выберите, как формируется страница редакционной коллегии для этого журнала. Статическое содержимое — это свободный текст, заданный в настройках журнала."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Где редактируется содержимое"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Текст, показываемый на странице, — это поле форматированного текста на вкладке «Редакционная коллегия» настроек журнала (в стандартном OJS 3.5 оно называется «История редакции»)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Откройте «Настройки > Журнал > Редакционная коллегия»"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Текстовое поле всё ещё пустое"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Пока поле пустое, страница редакционной коллегии не покажет статического содержимого. Заполните поле в настройках журнала, прежде чем использовать режим «только статическое содержимое»."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Содержимое страницы редакционной коллегии"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Только статическое содержимое (поведение прежних версий)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Статическое содержимое, затем динамический список пользователей"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Динамический список пользователей, затем статическое содержимое"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Дополнительные параметры"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Показывать на странице список рецензентов за прошлый год"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Показывать ссылку на страницу «История редакции»"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Не повторять статическое содержимое на странице «История редакции»"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Переименуйте поле в «Редакционная коллегия» в настройках журнала"

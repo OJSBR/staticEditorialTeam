@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: az\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statik redaksiya heyəti"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Əvvəlki OJS versiyalarındakı statik Redaksiya heyəti səhifəsini bərpa edir: səhifə istifadəçi rollarından qurulan dinamik siyahı əvəzinə jurnal parametrlərində təyin edilmiş sərbəst mətni göstərir."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Redaksiya heyəti"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Bu mətn saytın Redaksiya heyəti səhifəsində istifadəçilərin avtomatik siyahısı əvəzinə göstərilir. Redaksiya heyətini tam adlar, təşkilatlar və istəsəniz səlahiyyət müddətləri ilə təsvir edin."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Bu jurnal üçün Redaksiya heyəti səhifəsinin necə qurulacağını seçin. Statik məzmun jurnal parametrlərində təyin edilmiş sərbəst mətndir."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Məzmun harada redaktə olunur"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Səhifədə göstərilən mətn jurnal parametrlərinin Redaksiya heyəti sekmesindəki zəngin mətn sahəsidir (standart OJS 3.5-də \"Redaksiya tarixçəsi\" adlanır)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Parametrlər > Jurnal > Redaksiya heyəti bölməsini açın"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Mətn sahəsi hələ boşdur"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Sahə boş qaldıqca Redaksiya heyəti səhifəsi heç bir statik məzmun göstərməyəcək. Yalnız statik rejimdən istifadə etməzdən əvvəl jurnal parametrlərində sahəni doldurun."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Redaksiya heyəti səhifəsinin məzmunu"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Yalnız statik məzmun (əvvəlki versiyaların davranışı)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statik məzmun, sonra istifadəçilərin dinamik siyahısı"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "İstifadəçilərin dinamik siyahısı, sonra statik məzmun"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Əlavə seçimlər"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Səhifədə keçən ilin rəyçilər siyahısını göstər"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Redaksiya tarixçəsi səhifəsinə keçidi göstər"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Statik məzmunu Redaksiya tarixçəsi səhifəsində təkrarlama"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Jurnal parametrlərində sahənin adını \"Redaksiya heyəti\" olaraq dəyişin"

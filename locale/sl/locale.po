@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sl\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statično uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Obnovi statično stran uredništva iz prejšnjih različic OJS: stran prikaže prosto besedilo iz nastavitev revije namesto dinamičnega seznama, sestavljenega iz uporabniških vlog."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "To besedilo se prikaže na strani uredništva na spletišču namesto samodejnega seznama uporabnikov. Uredništvo opišite s polnimi imeni, ustanovami in po želji z mandatnimi obdobji."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Izberite, kako se za to revijo sestavi stran uredništva. Statična vsebina je prosto besedilo, nastavljeno v nastavitvah revije."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Kje se vsebina ureja"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Besedilo na strani je polje z oblikovanim besedilom na zavihku Uredništvo v nastavitvah revije (v standardnem OJS 3.5 poimenovano »Uredniška zgodovina«)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Odprite Nastavitve > Revija > Uredništvo"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Besedilno polje je še vedno prazno"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Dokler je polje prazno, stran uredništva ne bo prikazala statične vsebine. Preden uporabite način samo s statično vsebino, polje izpolnite v nastavitvah revije."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Vsebina strani uredništva"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Samo statična vsebina (vedenje prejšnjih različic)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statična vsebina, nato dinamični seznam uporabnikov"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dinamični seznam uporabnikov, nato statična vsebina"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Dodatne možnosti"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Na strani prikaži lanski seznam recenzentov"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Prikaži povezavo do strani Uredniška zgodovina"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Statične vsebine ne ponavljaj na strani Uredniška zgodovina"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "V nastavitvah revije polje preimenujte v »Uredništvo«"

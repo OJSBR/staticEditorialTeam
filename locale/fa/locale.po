@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fa\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "هیئت تحریریهٔ ایستا"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "صفحهٔ ایستای هیئت تحریریه را از نسخه‌های پیشین OJS بازمی‌گرداند: صفحه به‌جای فهرست پویا که از نقش کاربران ساخته می‌شود، متن آزاد تنظیمات نشریه را نشان می‌دهد."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "هیئت تحریریه"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "این متن در صفحهٔ هیئت تحریریهٔ وب‌سایت به‌جای فهرست خودکار کاربران نمایش داده می‌شود. هیئت تحریریه را با نام کامل، وابستگی سازمانی و در صورت تمایل دورهٔ خدمت توصیف کنید."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "انتخاب کنید صفحهٔ هیئت تحریریه برای این نشریه چگونه ساخته شود. محتوای ایستا همان متن آزادی است که در تنظیمات نشریه پیکربندی شده است."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "محتوا کجا ویرایش می‌شود"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "متنی که در صفحه دیده می‌شود همان فیلد متن غنی در زبانهٔ هیئت تحریریهٔ تنظیمات نشریه است (که در OJS 3.5 استاندارد «تاریخچهٔ سردبیری» نام دارد)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "تنظیمات > نشریه > هیئت تحریریه را باز کنید"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "فیلد متن هنوز خالی است"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "تا زمانی که فیلد خالی باشد، صفحهٔ هیئت تحریریه هیچ محتوای ایستایی نشان نمی‌دهد. پیش از استفاده از حالت «فقط ایستا»، فیلد را در تنظیمات نشریه پر کنید."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "محتوای صفحهٔ هیئت تحریریه"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "فقط محتوای ایستا (رفتار نسخه‌های پیشین)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "محتوای ایستا و سپس فهرست پویا از کاربران"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "فهرست پویا از کاربران و سپس محتوای ایستا"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "گزینه‌های بیشتر"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "نمایش فهرست داوران سال گذشته در این صفحه"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "نمایش پیوند صفحهٔ تاریخچهٔ سردبیری"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "محتوای ایستا در صفحهٔ تاریخچهٔ سردبیری تکرار نشود"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "در تنظیمات نشریه نام فیلد را به «هیئت تحریریه» تغییر دهید"

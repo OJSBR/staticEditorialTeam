@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pl\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statyczny zespół redakcyjny"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Przywraca statyczną stronę zespołu redakcyjnego z wcześniejszych wersji OJS: strona wyświetla dowolny tekst z ustawień czasopisma zamiast dynamicznej listy budowanej na podstawie ról użytkowników."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Zespół redakcyjny"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Ten tekst jest wyświetlany na stronie zespołu redakcyjnego w witrynie zamiast automatycznej listy użytkowników. Opisz zespół redakcyjny, podając pełne imiona i nazwiska, afiliacje oraz — jeśli chcesz — kadencje."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Wybierz, jak budowana jest strona zespołu redakcyjnego dla tego czasopisma. Treść statyczna to dowolny tekst skonfigurowany w ustawieniach czasopisma."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Gdzie edytować treść"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Tekst wyświetlany na stronie to pole tekstu sformatowanego na karcie Zespół redakcyjny w ustawieniach czasopisma (w standardowym OJS 3.5 nazwane „Historia redakcyjna”)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Otwórz Ustawienia > Czasopismo > Zespół redakcyjny"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Pole tekstowe jest nadal puste"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Dopóki pole jest puste, strona zespołu redakcyjnego nie pokaże treści statycznej. Wypełnij pole w ustawieniach czasopisma, zanim użyjesz trybu wyłącznie statycznego."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Treść strony zespołu redakcyjnego"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Tylko treść statyczna (zachowanie wcześniejszych wersji)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Treść statyczna, a po niej dynamiczna lista użytkowników"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dynamiczna lista użytkowników, a po niej treść statyczna"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Opcje dodatkowe"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Pokaż na stronie listę recenzentów z ubiegłego roku"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Pokaż odnośnik do strony Historia redakcyjna"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Nie powtarzaj treści statycznej na stronie Historia redakcyjna"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Zmień nazwę pola na „Zespół redakcyjny” w ustawieniach czasopisma"

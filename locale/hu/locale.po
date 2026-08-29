@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hu\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Statikus szerkesztőség"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Visszaállítja a korábbi OJS-verziók statikus szerkesztőségi oldalát: az oldal a folyóirat beállításaiban megadott szabad szöveget jeleníti meg a felhasználói szerepkörökből épített dinamikus lista helyett."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Szerkesztőség"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Ez a szöveg jelenik meg a webhely szerkesztőségi oldalán a felhasználók automatikus listája helyett. Írja le a szerkesztőséget teljes nevekkel, munkahelyekkel és – ha szeretné – megbízatási időszakokkal."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Válassza ki, hogyan épül fel a szerkesztőség oldala ehhez a folyóirathoz. A statikus tartalom a folyóirat beállításaiban megadott szabad szöveg."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Hol szerkeszthető a tartalom"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Az oldalon megjelenő szöveg a folyóirat beállításainak Szerkesztőség lapján található formázott szövegmező (a szokásos OJS 3.5-ben „Szerkesztőségi történet” néven)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Nyissa meg: Beállítások > Folyóirat > Szerkesztőség"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "A szövegmező még üres"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Amíg a mező üres, a szerkesztőség oldala nem jelenít meg statikus tartalmat. Töltse ki a mezőt a folyóirat beállításaiban, mielőtt a csak statikus módot használná."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "A szerkesztőség oldalának tartalma"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Csak statikus tartalom (a korábbi verziók viselkedése)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Statikus tartalom, utána a dinamikus felhasználólista"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Dinamikus felhasználólista, utána a statikus tartalom"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "További beállítások"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "A tavalyi bírálói lista megjelenítése az oldalon"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "A Szerkesztőségi történet oldalra mutató hivatkozás megjelenítése"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Ne ismétlődjön a statikus tartalom a Szerkesztőségi történet oldalon"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Nevezze át a mezőt „Szerkesztőség” névre a folyóirat beállításaiban"

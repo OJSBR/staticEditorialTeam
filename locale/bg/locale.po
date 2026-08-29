@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: bg\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "Статичен редакционен екип"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "Възстановява статичната страница на редакционния екип от по-старите версии на OJS: страницата показва свободния текст от настройките на списанието вместо динамичния списък, изграден от потребителските роли."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "Редакционен екип"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "Този текст се показва на страницата на редакционния екип в сайта вместо автоматичния списък с потребители. Опишете екипа с пълни имена, месторабота и, ако желаете, мандати."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "Изберете как се изгражда страницата на редакционния екип за това списание. Статичното съдържание е свободният текст, зададен в настройките на списанието."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "Къде се редактира съдържанието"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "Текстът на страницата е полето за форматиран текст в раздела „Редакционен екип“ на настройките на списанието (в стандартен OJS 3.5 се нарича „Редакционна история“)."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "Отворете Настройки > Списание > Редакционен екип"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "Текстовото поле все още е празно"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "Докато полето е празно, страницата на редакционния екип няма да показва статично съдържание. Попълнете полето в настройките на списанието, преди да използвате режима само със статично съдържание."
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "Съдържание на страницата на редакционния екип"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "Само статично съдържание (поведението на по-старите версии)"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "Статично съдържание, следвано от динамичния списък с потребители"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "Динамичен списък с потребители, следван от статичното съдържание"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "Допълнителни опции"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "Показване на списъка с рецензенти от миналата година на страницата"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "Показване на връзката към страницата „Редакционна история“"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "Да не се повтаря статичното съдържание на страницата „Редакционна история“"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "Преименувайте полето на „Редакционен екип“ в настройките на списанието"

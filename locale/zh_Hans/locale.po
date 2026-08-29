@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.displayName"
+msgstr "静态编辑团队"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.description"
+msgstr "恢复早期 OJS 版本中的静态编辑团队页面：页面显示期刊设置中的自由文本，而不是按用户角色自动生成的动态列表。"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldLabel"
+msgstr "编辑团队"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.fieldDescription"
+msgstr "该文字会显示在网站的编辑团队页面上，取代自动生成的用户列表。请以全名、单位以及（如需要）任期来介绍编辑团队。"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.description"
+msgstr "选择本期刊的编辑团队页面如何构建。静态内容即期刊设置中填写的自由文本。"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.title"
+msgstr "内容在何处编辑"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.body"
+msgstr "页面上显示的文字，就是期刊设置“编辑团队”选项卡中的富文本字段（在标准 OJS 3.5 中标注为“编辑历史”）。"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.where.link"
+msgstr "打开“设置 > 期刊 > 编辑团队”"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.title"
+msgstr "文本字段仍为空"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.empty.body"
+msgstr "只要该字段为空，编辑团队页面就不会显示任何静态内容。使用“仅静态内容”模式前，请先在期刊设置中填写该字段。"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode"
+msgstr "编辑团队页面的内容"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticOnly"
+msgstr "仅静态内容（早期版本的行为）"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticFirst"
+msgstr "静态内容，其后是用户动态列表"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.mode.staticLast"
+msgstr "用户动态列表，其后是静态内容"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.options"
+msgstr "其他选项"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showReviewers"
+msgstr "在页面显示去年的审稿人名单"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.showHistoryLink"
+msgstr "显示“编辑历史”页面的链接"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.hideOnHistoryPage"
+msgstr "不要在“编辑历史”页面重复静态内容"
+
+#, fuzzy
+msgid "plugins.generic.staticEditorialTeam.settings.relabelField"
+msgstr "在期刊设置中把该字段改名为“编辑团队”"

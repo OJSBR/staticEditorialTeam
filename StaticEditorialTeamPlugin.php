@@ -89,11 +89,11 @@ class StaticEditorialTeamPlugin extends GenericPlugin
             return Hook::CONTINUE;
         }
 
-        $context = Application::get()->getRequest()->getContext();
+        $context = $this->currentContext();
         if (!$context) {
             return Hook::CONTINUE;
         }
-        $contextId = $context->getId();
+        $contextId = (int) $context->getId();
 
         if ($template === self::HISTORY_TEMPLATE) {
             // The text moved to the Editorial Team page; do not repeat it here.
@@ -133,8 +133,8 @@ class StaticEditorialTeamPlugin extends GenericPlugin
             return Hook::CONTINUE;
         }
 
-        $context = Application::get()->getRequest()->getContext();
-        if (!$context || !$this->getRelabelField($context->getId())) {
+        $context = $this->currentContext();
+        if (!$context || !$this->getRelabelField((int) $context->getId())) {
             return Hook::CONTINUE;
         }
         if (empty($config['fields']) || !is_array($config['fields'])) {
@@ -159,6 +159,14 @@ class StaticEditorialTeamPlugin extends GenericPlugin
         }
 
         return Hook::CONTINUE;
+    }
+
+    /**
+     * The journal of the request.
+     */
+    protected function currentContext(): ?\PKP\context\Context
+    {
+        return Application::get()->getRequest()->getContext();
     }
 
     /**

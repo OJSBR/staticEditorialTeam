@@ -22,7 +22,7 @@
 
 	{if $staticEditorialTeamStaticFirst}
 		<div class="editorial_team_content">
-			{$staticEditorialTeamContent}
+			{$staticEditorialTeamContent|strip_unsafe_html}
 			{include file="frontend/components/editLink.tpl" page="management" op="settings" path="context" anchor="masthead" sectionTitleKey="common.editorialMasthead"}
 		</div>
 	{/if}
@@ -61,7 +61,7 @@
 
 	{if !$staticEditorialTeamStaticFirst}
 		<div class="editorial_team_content">
-			{$staticEditorialTeamContent}
+			{$staticEditorialTeamContent|strip_unsafe_html}
 			{include file="frontend/components/editLink.tpl" page="management" op="settings" path="context" anchor="masthead" sectionTitleKey="common.editorialMasthead"}
 		</div>
 	{/if}

@@ -12,35 +12,20 @@
 	{rdelim});
 </script>
 
-<style>
-	.setNotice {ldelim}
-		border:1px solid #d8dee4; border-left-width:4px; border-radius:6px;
-		background:#f7f9fa; padding:.9em 1.1em; margin:0 0 1.2em;
-	{rdelim}
-	.setNotice--warning {ldelim} border-left-color:#d97706; background:#fff8ed; {rdelim}
-	.setNotice--info {ldelim} border-left-color:#3a6ea5; {rdelim}
-	.setNotice h4 {ldelim} margin:0 0 .35em; font-size:1em; {rdelim}
-	.setNotice p {ldelim} margin:0; {rdelim}
-</style>
-
 <form class="pkp_form" id="staticEditorialTeamSettingsForm" method="post" action="{url router=\PKP\core\PKPApplication::ROUTE_COMPONENT op="manage" category="generic" plugin=$pluginName verb="settings" save=true}">
 	{csrf}
 	{include file="controllers/notification/inPlaceNotification.tpl" notificationId="staticEditorialTeamSettingsFormNotification"}
 
 	<p>{translate key="plugins.generic.staticEditorialTeam.settings.description"}</p>
 
-	<div class="setNotice setNotice--info">
-		<h4>{translate key="plugins.generic.staticEditorialTeam.settings.where.title"}</h4>
-		<p>
-			{translate key="plugins.generic.staticEditorialTeam.settings.where.body"}
-			<a href="{$settingsUrl|escape}" target="_blank" rel="noopener">{translate key="plugins.generic.staticEditorialTeam.settings.where.link"}</a>
-		</p>
+	{capture assign="staticEditorialTeamWhere"}{"plugins.generic.staticEditorialTeam.settings.where.body"|translate|escape} <a href="{$settingsUrl|escape}" target="_blank" rel="noopener">{"plugins.generic.staticEditorialTeam.settings.where.link"|translate|escape}</a>{/capture}
+	<div class="pkp_notification">
+		{include file="controllers/notification/inPlaceNotificationContent.tpl" notificationId="staticEditorialTeamWhere" notificationTitle="plugins.generic.staticEditorialTeam.settings.where.title"|translate|escape notificationContents=$staticEditorialTeamWhere}
 	</div>
 
 	{if !$hasContent}
-		<div class="setNotice setNotice--warning">
-			<h4>{translate key="plugins.generic.staticEditorialTeam.settings.empty.title"}</h4>
-			<p>{translate key="plugins.generic.staticEditorialTeam.settings.empty.body"}</p>
+		<div class="pkp_notification">
+			{include file="controllers/notification/inPlaceNotificationContent.tpl" notificationId="staticEditorialTeamEmpty" notificationStyleClass="notifyWarning" notificationTitle="plugins.generic.staticEditorialTeam.settings.empty.title"|translate|escape notificationContents="plugins.generic.staticEditorialTeam.settings.empty.body"|translate|escape}
 		</div>
 	{/if}
 

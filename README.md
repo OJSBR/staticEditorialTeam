@@ -1,10 +1,10 @@
 # Static Editorial Team — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.0.2-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.0.2/staticEditorialTeam-1.0.0.2.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.1.0/staticEditorialTeam-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that brings back the **static Editorial
 Team page** of earlier OJS versions: the page shows the free text configured in the journal
@@ -18,7 +18,7 @@ OJS core**.
 
 | OJS version | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.0.2 |
+| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
 
 ## The problem
 
@@ -63,16 +63,48 @@ Open the plugin settings. Every option is per journal:
 
 - A `TemplateManager::display` hook swaps **only the template name** — that variable is passed by
   reference — so headers, the session cookie and the compile id are still handled by OJS.
-- The plugin template renders `editorialHistory` and, depending on the mode, the same markup the
-  core template uses (roles, users, ORCID, reviewers), so themes keep working.
+- The plugin template renders `editorialHistory` (filtered with `strip_unsafe_html`) and,
+  depending on the mode, the same markup the core template uses (roles, users, ORCID,
+  reviewers), so theme styles keep applying. A theme that replaces the core template of this
+  page is not used while the plugin is on. A test compares the copies with the core templates of
+  the installed OJS, so a change in a new OJS release shows up.
 - The settings field is relabelled through the `Form::config::after` hook on the `masthead` form,
   which is narrower than overriding the locale key globally.
 - Nothing is written to the database: the content is the context setting OJS already stores.
+
+## Tests
+
+- **PHPUnit** (`tests/*Test.php`, on `PKP\tests\PKPTestCase`): the classes against the installed
+  PKP, the plugin found by PKP's plugin registry, settings falling back to safe defaults, the
+  template swapped on the Editorial Team and Editorial History pages according to the settings
+  (and left alone elsewhere), only the text field of the masthead form relabelled, the copies
+  matching the listings of the installed core templates, the journal text filtered as HTML, the
+  templates and the 38 translations. From the OJS root:
+
+  ```bash
+  lib/pkp/lib/vendor/bin/phpunit --configuration lib/pkp/tests/phpunit.xml --no-coverage "$PWD/plugins/generic/staticEditorialTeam/tests"
+  ```
+
+- **Cypress** (`cypress/tests/functional/StaticEditorialTeam.cy.js`, run by
+  [pkp-github-actions](https://github.com/pkp/pkp-github-actions) on every push): enables the
+  plugin, sets the journal text (with a script that must not run) and, through the settings
+  form, checks the static-only page, the text kept off the Editorial History page, and the text
+  after the listing with the history link. The journal text and the settings are put back after
+  the run. Each check fails with the part it covers removed.
+- Verified on OJS 3.5.0.3.
+
+Tests are kept in the repository and are not part of the release package.
 
 ## Credits & authorship
 
 - **Developed and maintained by** [OJSBR](https://ojsbr.com) — original plugin.
 - Distributed under the **GNU GPL v3**.
+
+## AI use
+
+Generative AI (Claude, by Anthropic) was used to write and run tests, improve the code and bring
+it in line with PKP standards. Every change is reviewed and tested by OJSBR, which is responsible
+for the published releases.
 
 ## Contributing
 
@@ -99,7 +131,7 @@ usuário — **sem alterar o núcleo do OJS**.
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.0.0 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.1.0 |
 
 ### O problema
 
@@ -154,10 +186,30 @@ Nas configurações do plugin, por revista:
 Interface do plugin traduzida em **português (Brasil), inglês, espanhol, francês, italiano e
 alemão**.
 
+### Testes
+
+PHPUnit em `tests/` (sobre `PKP\tests\PKPTestCase`) e Cypress em `cypress/tests/functional/`
+(rodado pelo [pkp-github-actions](https://github.com/pkp/pkp-github-actions) a cada push), com o
+comando da seção em inglês. A suíte cobre as classes contra o PKP instalado, o plugin encontrado
+pelo registro de plugins, os padrões das configurações, a troca de template nas páginas Equipe
+Editorial e Histórico Editorial conforme as opções, só o campo de texto do formulário renomeado, as
+cópias batendo com os templates do núcleo instalado, o texto filtrado como HTML, os templates e as
+38 traduções. O Cypress liga o plugin, grava o texto da revista (com um script que não pode rodar)
+e confere a página só com o texto, o texto fora do Histórico Editorial e o texto depois da lista com
+o link do histórico; texto e configurações voltam ao que eram no fim. Verificado no OJS 3.5.0.3.
+
+Os testes ficam no repositório e não fazem parte do pacote da release.
+
 ### Créditos e autoria
 
 - **Desenvolvido e mantido pela** [OJSBR](https://ojsbr.com) — plugin autoral.
 - Distribuído sob a **GNU GPL v3**.
+
+### Uso de IA
+
+Foi usada IA generativa (Claude, da Anthropic) para escrever e rodar testes, melhorar o código e
+alinhá-lo aos padrões da PKP. Toda mudança é revisada e testada pela OJSBR, que responde pelas
+releases publicadas.
 
 ### Licença
 

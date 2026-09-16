@@ -72,6 +72,20 @@ Open the plugin settings. Every option is per journal:
   which is narrower than overriding the locale key globally.
 - Nothing is written to the database: the content is the context setting OJS already stores.
 
+### A documented exception to the OJSBR plugin standard
+
+Our own standard asks plugins never to replace a core template. This plugin does replace two —
+`frontend/pages/editorialMasthead.tpl` and `frontend/pages/editorialHistory.tpl` — because OJS 3.5
+offers no other way: the hooks of `AboutContextHandler` receive the data by value, and the core
+templates of these pages call no hook of their own, so there is nowhere to add the journal's text
+or to leave out the automatic listing. The exception is deliberate and bounded:
+
+- the copies are the core templates with the plugin's conditions added, and a test compares them
+  with the core templates of the installed OJS, so an OJS release that changes those pages is
+  caught by the suite instead of silently drifting;
+- only these two pages are affected, and only while the plugin is enabled;
+- a theme that replaces the core template of these pages is not used while the plugin is on.
+
 ## Tests
 
 - **PHPUnit** (`tests/*Test.php`, on `PKP\tests\PKPTestCase`): the classes against the installed
@@ -185,6 +199,20 @@ Nas configurações do plugin, por revista:
 
 Interface do plugin traduzida em **português (Brasil), inglês, espanhol, francês, italiano e
 alemão**.
+
+### Uma exceção documentada ao padrão de plugins da OJSBR
+
+Nosso padrão pede que plugin nenhum substitua template do núcleo. Este substitui dois —
+`frontend/pages/editorialMasthead.tpl` e `frontend/pages/editorialHistory.tpl` — porque o OJS 3.5
+não oferece outro caminho: os hooks do `AboutContextHandler` recebem os dados por valor, e os
+templates do núcleo dessas páginas não chamam hook nenhum, então não há onde inserir o texto da
+revista nem onde deixar de fora a lista automática. A exceção é deliberada e limitada:
+
+- as cópias são os templates do núcleo com as condições do plugin, e um teste as compara com os
+  templates do núcleo do OJS instalado, de modo que uma versão nova do OJS que mexa nessas páginas
+  aparece na suíte em vez de divergir calada;
+- só essas duas páginas são afetadas, e só enquanto o plugin está ativado;
+- um tema que substitua o template do núcleo dessas páginas não é usado com o plugin ligado.
 
 ### Testes
 

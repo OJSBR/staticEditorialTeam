@@ -14,7 +14,8 @@
 
 namespace APP\plugins\generic\staticEditorialTeam\tests;
 
-use APP\journal\Journal;
+use APP\core\Application;
+use PKP\context\Context;
 use APP\plugins\generic\staticEditorialTeam\StaticEditorialTeamPlugin;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PKP\tests\PKPTestCase;
@@ -25,10 +26,10 @@ class StaticEditorialTeamTest extends PKPTestCase
     /**
      * A plugin whose settings and journal are the given ones.
      */
-    protected function plugin(array $settings, ?Journal $journal = null): StaticEditorialTeamPlugin
+    protected function plugin(array $settings, ?Context $journal = null): StaticEditorialTeamPlugin
     {
         return new class ($settings, $journal) extends StaticEditorialTeamPlugin {
-            public function __construct(private array $settings, private ?Journal $journal)
+            public function __construct(private array $settings, private ?Context $journal)
             {
                 parent::__construct();
             }
@@ -43,6 +44,12 @@ class StaticEditorialTeamTest extends PKPTestCase
                 return $this->journal;
             }
 
+            // Localized data reads the request's locale, which the command line does not have.
+            protected function contentFor(\PKP\context\Context $context): string
+            {
+                return (string) $context->getData(StaticEditorialTeamPlugin::CONTENT_FIELD, 'en');
+            }
+
             public function getTemplateResource($template = null, $inCore = false)
             {
                 return 'plugin:' . $template;
@@ -50,15 +57,10 @@ class StaticEditorialTeamTest extends PKPTestCase
         };
     }
 
-    protected function journal(): Journal
+    protected function journal(): Context
     {
-        // Localized data reads the request's locale, which the command line does not have.
-        $journal = new class () extends Journal {
-            public function getLocalizedData(string $key, ?string $preferredLocale = null, ?string &$selectedLocale = null): mixed
-            {
-                return $this->getData($key, 'en');
-            }
-        };
+        // The journal or press of the installation the suite runs on.
+        $journal = Application::getContextDAO()->newDataObject();
         $journal->setId(3);
         $journal->setData(StaticEditorialTeamPlugin::CONTENT_FIELD, '<p>Board</p>', 'en');
         return $journal;

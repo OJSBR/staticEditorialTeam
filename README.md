@@ -1,10 +1,10 @@
 # Static Editorial Team — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.1.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.2.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.1.0/staticEditorialTeam-1.0.1.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.2.0/staticEditorialTeam-1.0.2.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that brings back the **static Editorial
 Team page** of earlier OJS versions: the page shows the free text configured in the journal
@@ -16,9 +16,12 @@ OJS core**.
 
 ## Compatibility & branches
 
-| OJS version | Branch | Plugin release |
+| Application | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x   | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.1.0 |
+| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.2.0 |
+
+> Since 1.0.2.0 the same package serves OJS and OMP. The former `staticEditorialTeamOmp`
+> repository is archived; its releases stay available there.
 
 ## The problem
 
@@ -105,7 +108,7 @@ or to leave out the automatic listing. The exception is deliberate and bounded:
   form, checks the static-only page, the text kept off the Editorial History page, and the text
   after the listing with the history link. The journal text and the settings are put back after
   the run. Each check fails with the part it covers removed.
-- Verified on OJS 3.5.0.3.
+- Verified on OJS 3.5.0.3 and OMP 3.5.0.5, the same package on both.
 
 Tests are kept in the repository and are not part of the release package.
 
@@ -145,7 +148,7 @@ usuário — **sem alterar o núcleo do OJS**.
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.1.0 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.2.0 |
 
 ### O problema
 
@@ -224,7 +227,7 @@ Editorial e Histórico Editorial conforme as opções, só o campo de texto do f
 cópias batendo com os templates do núcleo instalado, o texto filtrado como HTML, os templates e as
 38 traduções. O Cypress liga o plugin, grava o texto da revista (com um script que não pode rodar)
 e confere a página só com o texto, o texto fora do Histórico Editorial e o texto depois da lista com
-o link do histórico; texto e configurações voltam ao que eram no fim. Verificado no OJS 3.5.0.3.
+o link do histórico; texto e configurações voltam ao que eram no fim. Verificado no OJS 3.5.0.3 e no OMP 3.5.0.5, com o mesmo pacote.
 
 Os testes ficam no repositório e não fazem parte do pacote da release.
 

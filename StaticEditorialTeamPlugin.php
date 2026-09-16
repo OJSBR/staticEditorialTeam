@@ -105,7 +105,7 @@ class StaticEditorialTeamPlugin extends GenericPlugin
 
         $mode = $this->getMode($contextId);
         $templateMgr->assign([
-            'staticEditorialTeamContent' => $context->getLocalizedData(self::CONTENT_FIELD),
+            'staticEditorialTeamContent' => $this->contentFor($context),
             'staticEditorialTeamMode' => $mode,
             'staticEditorialTeamShowRoles' => $mode !== self::MODE_STATIC_ONLY,
             'staticEditorialTeamStaticFirst' => $mode !== self::MODE_STATIC_LAST,
@@ -159,6 +159,14 @@ class StaticEditorialTeamPlugin extends GenericPlugin
         }
 
         return Hook::CONTINUE;
+    }
+
+    /**
+     * The journal's or press's free text, in the language of the page.
+     */
+    protected function contentFor(\PKP\context\Context $context): string
+    {
+        return (string) $context->getLocalizedData(self::CONTENT_FIELD);
     }
 
     /**

@@ -17,6 +17,7 @@ namespace APP\plugins\generic\staticEditorialTeam;
 
 use APP\core\Application;
 use APP\notification\NotificationManager;
+use PKP\config\Config;
 use PKP\core\JSONMessage;
 use PKP\linkAction\LinkAction;
 use PKP\linkAction\request\AjaxModal;
@@ -36,6 +37,15 @@ class StaticEditorialTeamPlugin extends GenericPlugin
 
     /** Context field holding the free text (named `editorialTeam` up to 3.4). */
     public const CONTENT_FIELD = 'editorialHistory';
+
+    /**
+     * Tags the journal text may use on top of the site's `allowed_html`: the headings, rules and
+     * quotes an editorial board is organised with. strip_unsafe_html alone removed the headings.
+     */
+    public const EXTRA_ALLOWED_HTML = 'h1[style],h2[style],h3[style],h4[style],h5[style],h6[style],hr,blockquote,span[style]';
+
+    /** CSS the text may keep (the colours and alignment set in the editor), nothing that moves the layout. */
+    public const ALLOWED_CSS = ['color', 'text-align', 'font-weight', 'font-style', 'text-decoration'];
 
     /** Static content only (the behaviour of earlier versions). */
     public const MODE_STATIC_ONLY = 'staticOnly';
@@ -105,7 +115,7 @@ class StaticEditorialTeamPlugin extends GenericPlugin
 
         $mode = $this->getMode($contextId);
         $templateMgr->assign([
-            'staticEditorialTeamContent' => $this->contentFor($context),
+            'staticEditorialTeamContent' => $this->purify($this->contentFor($context)),
             'staticEditorialTeamMode' => $mode,
             'staticEditorialTeamShowRoles' => $mode !== self::MODE_STATIC_ONLY,
             'staticEditorialTeamStaticFirst' => $mode !== self::MODE_STATIC_LAST,
@@ -167,6 +177,30 @@ class StaticEditorialTeamPlugin extends GenericPlugin
     protected function contentFor(\PKP\context\Context $context): string
     {
         return (string) $context->getLocalizedData(self::CONTENT_FIELD);
+    }
+
+    /**
+     * The journal text made safe to print: the site's allowed_html plus the headings of
+     * EXTRA_ALLOWED_HTML, through the HTMLPurifier OJS ships. Scripts, event handlers and any
+     * other tag stay out, as with strip_unsafe_html.
+     */
+    public function purify(string $html): string
+    {
+        if (trim($html) === '') {
+            return '';
+        }
+        static $purifier;
+        if (!isset($purifier)) {
+            $config = \HTMLPurifier_Config::createDefault();
+            $config->set('Core.Encoding', 'utf-8');
+            $config->set('HTML.Doctype', 'HTML 4.01 Transitional');
+            $config->set('HTML.Allowed', trim((string) Config::getVar('security', 'allowed_html') . ',' . self::EXTRA_ALLOWED_HTML, ','));
+            $config->set('CSS.AllowedProperties', self::ALLOWED_CSS);
+            $config->set('Cache.SerializerPath', 'cache');
+            $config->set('Attr.AllowedFrameTargets', ['_blank']);
+            $purifier = new \HTMLPurifier($config);
+        }
+        return $purifier->purify($html);
     }
 
     /**

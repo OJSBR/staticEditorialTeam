@@ -173,12 +173,27 @@ class StaticEditorialTeamTest extends PKPTestCase
         );
     }
 
-    public function testTheJournalTextIsPrintedAsTheCoreDoes(): void
+    public function testTheTemplatePrintsTheTextThePluginPurified(): void
     {
-        // The core prints `about` and `editorialHistory` unfiltered; strip_unsafe_html removed the
-        // headings (h1-h6) journals use to split the board into sections.
         $copy = (string) file_get_contents(dirname(__DIR__) . '/templates/frontend/editorialTeam.tpl');
         $this->assertSame(2, substr_count($copy, '{$staticEditorialTeamContent}'));
         $this->assertStringNotContainsString('{$staticEditorialTeamContent|', $copy);
+    }
+
+    public function testTheJournalTextKeepsItsHeadingsAndLosesScripts(): void
+    {
+        $html = $this->plugin([])->purify(
+            '<h1 style="color: #ed694b;">Subject editors</h1><h2>By taxonomic expertise:</h2>'
+            . '<ul><li><strong>Aculifera:</strong> M. S. Miranda</li></ul>'
+            . '<script>window.x = 1;</script><p onclick="alert(1)">Board</p><h3 style="position: fixed;">Note</h3>'
+        );
+        $this->assertStringContainsString('<h1 style="color:#ed694b;">Subject editors</h1>', $html);
+        $this->assertStringContainsString('<h2>By taxonomic expertise:</h2>', $html);
+        $this->assertStringContainsString('<strong>Aculifera:</strong>', $html);
+        $this->assertStringContainsString('<h3>Note</h3>', $html);
+        $this->assertStringNotContainsString('<script', $html);
+        $this->assertStringNotContainsString('onclick', $html);
+        $this->assertStringNotContainsString('position', $html);
+        $this->assertSame('', $this->plugin([])->purify('   '));
     }
 }

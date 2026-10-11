@@ -66,8 +66,10 @@ Open the plugin settings. Every option is per journal:
 
 - A `TemplateManager::display` hook swaps **only the template name** — that variable is passed by
   reference — so headers, the session cookie and the compile id are still handled by OJS.
-- The plugin template renders `editorialHistory` the way the core prints it (unfiltered, as on the
-  About and Editorial History pages, so the journal's headings keep their formatting) and,
+- The plugin template renders `editorialHistory` purified with the HTMLPurifier OJS ships, allowing
+  the site's `allowed_html` plus headings (h1–h6, with colour and alignment), rules and quotes, so the
+  journal's sections keep their formatting while scripts and event handlers stay out. Up to 1.0.2.0 it
+  went through `strip_unsafe_html`, which removed the headings. It also renders,
   depending on the mode, the same markup the core template uses (roles, users, ORCID,
   reviewers), so theme styles keep applying. A theme that replaces the core template of this
   page is not used while the plugin is on. A test compares the copies with the core templates of

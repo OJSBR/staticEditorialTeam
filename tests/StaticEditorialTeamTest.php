@@ -173,10 +173,12 @@ class StaticEditorialTeamTest extends PKPTestCase
         );
     }
 
-    public function testTheJournalTextIsFilteredAsHtml(): void
+    public function testTheJournalTextIsPrintedAsTheCoreDoes(): void
     {
+        // The core prints `about` and `editorialHistory` unfiltered; strip_unsafe_html removed the
+        // headings (h1-h6) journals use to split the board into sections.
         $copy = (string) file_get_contents(dirname(__DIR__) . '/templates/frontend/editorialTeam.tpl');
-        $this->assertSame(2, substr_count($copy, '{$staticEditorialTeamContent|strip_unsafe_html}'));
-        $this->assertStringNotContainsString('{$staticEditorialTeamContent}', $copy);
+        $this->assertSame(2, substr_count($copy, '{$staticEditorialTeamContent}'));
+        $this->assertStringNotContainsString('{$staticEditorialTeamContent|', $copy);
     }
 }

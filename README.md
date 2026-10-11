@@ -1,10 +1,10 @@
 # Static Editorial Team — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.2.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.3.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.2.0/staticEditorialTeam-1.0.2.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.3.0/staticEditorialTeam-1.0.3.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that brings back the **static Editorial
 Team page** of earlier OJS versions: the page shows the free text configured in the journal
@@ -18,7 +18,7 @@ OJS core**.
 
 | Application | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.2.0 |
+| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.3.0 |
 
 > Since 1.0.2.0 the same package serves OJS and OMP. The former `staticEditorialTeamOmp`
 > repository is archived; its releases stay available there.
@@ -66,7 +66,8 @@ Open the plugin settings. Every option is per journal:
 
 - A `TemplateManager::display` hook swaps **only the template name** — that variable is passed by
   reference — so headers, the session cookie and the compile id are still handled by OJS.
-- The plugin template renders `editorialHistory` (filtered with `strip_unsafe_html`) and,
+- The plugin template renders `editorialHistory` the way the core prints it (unfiltered, as on the
+  About and Editorial History pages, so the journal's headings keep their formatting) and,
   depending on the mode, the same markup the core template uses (roles, users, ORCID,
   reviewers), so theme styles keep applying. A theme that replaces the core template of this
   page is not used while the plugin is on. A test compares the copies with the core templates of
@@ -148,7 +149,7 @@ usuário — **sem alterar o núcleo do OJS**.
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.2.0 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.3.0 |
 
 ### O problema
 

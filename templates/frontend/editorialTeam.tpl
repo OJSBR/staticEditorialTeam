@@ -22,7 +22,9 @@
 
 	{if $staticEditorialTeamStaticFirst}
 		<div class="editorial_team_content">
-			{$staticEditorialTeamContent|strip_unsafe_html}
+			{* Printed as the core prints `about` and `editorialHistory`: the text is the journal managers' own, and
+			   strip_unsafe_html dropped its headings (h1-h6 are not in the default allowed_html). *}
+			{$staticEditorialTeamContent}
 			{include file="frontend/components/editLink.tpl" page="management" op="settings" path="context" anchor="masthead" sectionTitleKey="common.editorialMasthead"}
 		</div>
 	{/if}
@@ -61,7 +63,7 @@
 
 	{if !$staticEditorialTeamStaticFirst}
 		<div class="editorial_team_content">
-			{$staticEditorialTeamContent|strip_unsafe_html}
+			{$staticEditorialTeamContent}
 			{include file="frontend/components/editLink.tpl" page="management" op="settings" path="context" anchor="masthead" sectionTitleKey="common.editorialMasthead"}
 		</div>
 	{/if}

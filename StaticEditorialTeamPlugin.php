@@ -39,10 +39,14 @@ class StaticEditorialTeamPlugin extends GenericPlugin
     public const CONTENT_FIELD = 'editorialHistory';
 
     /**
-     * Tags the journal text may use on top of the site's `allowed_html`: the headings, rules and
-     * quotes an editorial board is organised with. strip_unsafe_html alone removed the headings.
+     * Tags the journal text may use on top of the site's `allowed_html`: the headings, rules, quotes
+     * and tables an editorial board is organised with. strip_unsafe_html alone removed the headings,
+     * and without the table tags a board pasted from Word turned into one paragraph per cell. The
+     * table keeps no width or border attributes: css/editorialTeam.css fits it to the column.
      */
-    public const EXTRA_ALLOWED_HTML = 'h1[style],h2[style],h3[style],h4[style],h5[style],h6[style],hr,blockquote,span[style]';
+    public const EXTRA_ALLOWED_HTML = 'h1[style],h2[style],h3[style],h4[style],h5[style],h6[style],hr,blockquote,span[style],'
+        . 'table[style],caption,colgroup[span],col[span],thead,tbody,tfoot,'
+        . 'tr[style],th[colspan|rowspan|scope|style],td[colspan|rowspan|style]';
 
     /** CSS the text may keep (the colours and alignment set in the editor), nothing that moves the layout. */
     public const ALLOWED_CSS = ['color', 'text-align', 'font-weight', 'font-style', 'text-decoration'];
@@ -114,6 +118,11 @@ class StaticEditorialTeamPlugin extends GenericPlugin
         }
 
         $mode = $this->getMode($contextId);
+        $templateMgr->addStyleSheet(
+            'staticEditorialTeam',
+            Application::get()->getRequest()->getBaseUrl() . '/' . $this->getPluginPath() . '/css/editorialTeam.css?v=1.0.4.0',
+            ['contexts' => 'frontend']
+        );
         $templateMgr->assign([
             'staticEditorialTeamContent' => $this->purify($this->contentFor($context)),
             'staticEditorialTeamMode' => $mode,

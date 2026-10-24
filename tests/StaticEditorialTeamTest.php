@@ -196,4 +196,27 @@ class StaticEditorialTeamTest extends PKPTestCase
         $this->assertStringNotContainsString('position', $html);
         $this->assertSame('', $this->plugin([])->purify('   '));
     }
+
+    public function testTheJournalTextKeepsItsTables(): void
+    {
+        $html = $this->plugin([])->purify(
+            '<table border="1" style="width: 100%;"><thead><tr><th colspan="2">EDITORA-CHEFE</th></tr></thead>'
+            . '<tbody><tr><td style="text-align: center;" onmouseover="alert(1)">1</td><td>Chrislene Carvalho</td></tr></tbody></table>'
+        );
+        $this->assertStringContainsString('<table>', $html);
+        $this->assertStringContainsString('<th colspan="2">EDITORA-CHEFE</th>', $html);
+        $this->assertStringContainsString('<td style="text-align:center;">1</td>', $html);
+        $this->assertStringContainsString('<td>Chrislene Carvalho</td>', $html);
+        $this->assertStringNotContainsString('onmouseover', $html);
+        $this->assertStringNotContainsString('width', $html);
+        $this->assertStringNotContainsString('border', $html);
+    }
+
+    public function testTheTablesHaveTheirStyleSheet(): void
+    {
+        $css = (string) file_get_contents(dirname(__DIR__) . '/css/editorialTeam.css');
+        $this->assertStringContainsString('.editorial_team_content table', $css);
+        $copy = (string) file_get_contents(dirname(__DIR__) . '/StaticEditorialTeamPlugin.php');
+        $this->assertStringContainsString("/css/editorialTeam.css?v=", $copy);
+    }
 }

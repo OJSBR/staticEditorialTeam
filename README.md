@@ -1,10 +1,10 @@
 # Static Editorial Team — OJS plugin
 
 [![OJS](https://img.shields.io/badge/OJS-3.5-brightgreen)](https://pkp.sfu.ca/ojs/)
-[![Version](https://img.shields.io/badge/version-1.0.3.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-1.0.4.0-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.3.0/staticEditorialTeam-1.0.3.0.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OJS / OMP 3.5](https://github.com/OJSBR/staticEditorialTeam/releases/download/1.0.4.0/staticEditorialTeam-1.0.4.0.tar.gz) — or browse all [Releases](../../releases).
 
 A generic plugin for **Open Journal Systems (OJS)** that brings back the **static Editorial
 Team page** of earlier OJS versions: the page shows the free text configured in the journal
@@ -18,7 +18,7 @@ OJS core**.
 
 | Application | Branch | Plugin release |
 |-------------|--------|----------------|
-| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.3.0 |
+| OJS 3.5.x and OMP 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 1.0.4.0 |
 
 > Since 1.0.2.0 the same package serves OJS and OMP. The former `staticEditorialTeamOmp`
 > repository is archived; its releases stay available there.
@@ -67,7 +67,8 @@ Open the plugin settings. Every option is per journal:
 - A `TemplateManager::display` hook swaps **only the template name** — that variable is passed by
   reference — so headers, the session cookie and the compile id are still handled by OJS.
 - The plugin template renders `editorialHistory` purified with the HTMLPurifier OJS ships, allowing
-  the site's `allowed_html` plus headings (h1–h6, with colour and alignment), rules and quotes, so the
+  the site's `allowed_html` plus headings (h1–h6, with colour and alignment), rules, quotes and tables
+  (since 1.0.4.0: a board pasted from Word no longer turns into one paragraph per cell), so the
   journal's sections keep their formatting while scripts and event handlers stay out. Up to 1.0.2.0 it
   went through `strip_unsafe_html`, which removed the headings. It also renders,
   depending on the mode, the same markup the core template uses (roles, users, ORCID,
@@ -151,7 +152,7 @@ usuário — **sem alterar o núcleo do OJS**.
 
 | Versão do OJS | Branch | Release do plugin |
 |---------------|--------|-------------------|
-| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.3.0 |
+| OJS 3.5.x     | `stable-3_5_0` *(padrão)* | 1.0.4.0 |
 
 ### O problema
 
@@ -195,8 +196,10 @@ Nas configurações do plugin, por revista:
 
 - Um hook `TemplateManager::display` troca **apenas o nome do template** (a variável vem por
   referência), então cabeçalhos, cookie de sessão e compile id continuam por conta do OJS.
-- O template do plugin renderiza o `editorialHistory` e, conforme o modo, a mesma marcação do
-  template do núcleo (papéis, usuários, ORCID, pareceristas), preservando o tema.
+- O template do plugin renderiza o `editorialHistory` limpo pelo HTMLPurifier do OJS: o `allowed_html`
+  do site mais títulos (h1 a h6, com cor e alinhamento), linhas, citações e tabelas (desde a 1.0.4.0;
+  antes, uma tabela colada do Word virava um parágrafo por célula). Conforme o modo, renderiza também
+  a mesma marcação do template do núcleo (papéis, usuários, ORCID, pareceristas), preservando o tema.
 - O rótulo do campo é ajustado pelo hook `Form::config::after` no formulário `masthead` — mais
   preciso do que sobrescrever a chave de tradução globalmente.
 - Nada é gravado no banco: o conteúdo é a configuração de contexto que o OJS já armazena.

@@ -1,0 +1,25 @@
+/* Tables of the journal's Editorial Team text (1.0.4.0). Boards pasted from Word bring a fixed width
+   and no borders; here they take the column width, light row rules and scroll sideways on phones. */
+.editorial_team_content table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	margin: 0 0 1.5em;
+}
+.editorial_team_content th,
+.editorial_team_content td {
+	padding: 0.45em 0.6em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+	text-align: left;
+	vertical-align: top;
+}
+.editorial_team_content th p,
+.editorial_team_content td p {
+	margin: 0;
+}
+@media (max-width: 600px) {
+	.editorial_team_content table {
+		display: block;
+		overflow-x: auto;
+	}
+}

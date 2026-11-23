@@ -1,5 +1,12 @@
-/* Tables of the journal's Editorial Team text (1.0.4.0). Boards pasted from Word bring a fixed width
-   and no borders; here they take the column width, light row rules and scroll sideways on phones. */
+/**
+ * @file plugins/generic/staticEditorialTeam/css/editorialTeam.css
+ *
+ * Copyright (c) 2026 OJSBR (https://ojsbr.com)
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * Tables of the journal's Editorial Team text (1.0.4.0). Boards pasted from Word bring a fixed width
+ * and no borders; here they take the column width, light row rules and scroll sideways on phones.
+ */
 .editorial_team_content table {
 	width: 100%;
 	max-width: 100%;

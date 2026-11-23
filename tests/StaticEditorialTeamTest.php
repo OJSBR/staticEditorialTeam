@@ -67,16 +67,22 @@ class StaticEditorialTeamTest extends PKPTestCase
     }
 
     /**
-     * A template manager that keeps what is assigned.
+     * A template manager that keeps what is assigned and the style sheets added.
      */
     protected function templateManager(): object
     {
         return new class () {
             public array $vars = [];
+            public array $styleSheets = [];
 
             public function assign($vars)
             {
                 $this->vars = array_merge($this->vars, $vars);
+            }
+
+            public function addStyleSheet($name, $style, $args = [])
+            {
+                $this->styleSheets[$name] = ['style' => $style, 'args' => $args];
             }
         };
     }
@@ -110,6 +116,8 @@ class StaticEditorialTeamTest extends PKPTestCase
         $this->assertFalse($templateMgr->vars['staticEditorialTeamStaticFirst']);
         $this->assertTrue($templateMgr->vars['staticEditorialTeamShowReviewers']);
         $this->assertFalse($templateMgr->vars['staticEditorialTeamShowHistoryLink']);
+        $this->assertStringContainsString('/css/editorialTeam.css?v=', $templateMgr->styleSheets['staticEditorialTeam']['style']);
+        $this->assertSame(['contexts' => 'frontend'], $templateMgr->styleSheets['staticEditorialTeam']['args']);
     }
 
     public function testTheHistoryPageDropsTheTextOnlyWhenAsked(): void
